@@ -1,8 +1,6 @@
 import React from 'react'
+import { App } from './app'
 
-function App() {
-  return <h1>Hello World</h1>
-}
 const user = {
   name: 'UserName'
 }
