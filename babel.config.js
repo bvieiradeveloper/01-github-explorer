@@ -1,3 +1,9 @@
+const { runtime } = require('webpack')
+
 module.exports = {
-  presets: ['@babel/preset-env', '@babel/preset-react']
+  presets: [
+    '@babel/preset-env',
+    //Automatic insert report react
+    ['@babel/preset-react', { runtime: 'automatic' }]
+  ]
 }

@@ -1,8 +1,4 @@
 import React from 'react'
 import { App } from './app'
-
-const user = {
-  name: 'UserName'
-}
-
-console.log(user.name?.street)
+import { render } from 'react-dom'
+render(<App/>,document.getElementById('root'))
