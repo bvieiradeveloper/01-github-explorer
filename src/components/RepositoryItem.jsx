@@ -1,6 +1,6 @@
 export function RepositoryItem(props){
 
-  const {name, description, html_url: link } = props.repository;
+  const { name, description, html_url: link } = props.repository;
 
   return (
           <li>
