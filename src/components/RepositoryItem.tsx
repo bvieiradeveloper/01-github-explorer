@@ -1,4 +1,11 @@
-export function RepositoryItem(props){
+ interface Repository{
+   repository: {
+    name: string,
+    description: string, 
+    html_url: string 
+   }
+}
+export function RepositoryItem(props: Repository){
 
   const { name, description, html_url: link } = props.repository;
 
